@@ -9,5 +9,6 @@ This is a [Google Sheets Apps Script](https://developers.google.com/apps-script/
 ### TODO
 
 - This script is Run > Test as add on... though it should be created as an add on.
+- In [`Code.gs`](https://github.com/psb-david-petty/google-apps-scripts/blob/main/ZoomLink/Code.gs) `setConditionalFormattingRules` should set rules for a range, not the entire sheet.
 
 [&#128279; permalink](https://psb-david-petty.github.io/google-apps-scripts/ZoomLink/) and [&#128297; repository](https://github.com/psb-david-petty/google-apps-scripts/tree/main/ZoomLink) for this page.
