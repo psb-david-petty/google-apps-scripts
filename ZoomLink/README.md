@@ -10,4 +10,4 @@ This is a [Google Sheets Apps Script](https://developers.google.com/apps-script/
 
 - This script is Run > Test as add on... though it should be created as an add on.
 
-[&#128279; permalink](https://psb-david-petty.github.io/google-apps-scripts/ZoomLink/) and [&#128297; repository](https://github.com/psb-david-petty/google-apps-scripts/ZoomLink/) for this page.
+[&#128279; permalink](https://psb-david-petty.github.io/google-apps-scripts/ZoomLink/) and [&#128297; repository](https://github.com/psb-david-petty/google-apps-scripts/tree/main/ZoomLink) for this page.
