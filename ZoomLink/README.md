@@ -1,12 +1,14 @@
 ## `ZoomLink`
 
-<p style="border-left: thick solid red; margin: 0 0 0 1%; padding 0 0 0 1%; font-weight: bold;">This documentation is a `DRAFT` and needs more work.</p>
+<p style="border-left: thick solid red; margin: 0 0 0 -1%; padding 0 0 0 2%; font-weight: bold;">This documentation is a `DRAFT` and needs more work.</p>
 
-This is a [Google Sheets Apps Script](https://developers.google.com/apps-script/guides/sheets) to replace Zoom URIs in a Google Sheet w/ links to them. There are currently two ways to embed URI links within a Google Sheet cell:
-- Select individual text and use <code>Insert > &#x1f517; Insert Link &#x2318;K</code>. The capability to have more than one link in a cell is a relatively new capability for Google Sheets ([May 2020](https://theverge.com/21431536/google-sheets-hyperlink-individual-many-multiple-words-cell)).
+This is a [Google Sheets Apps Script](https://developers.google.com/apps-script/guides/sheets) to replace Zoom URIs in a Google Sheet w/ links to them. 
+
+There are currently two ways to embed URI links within a Google Sheet cell:
+- Select individual text and use <code>Insert > &#x1f517; Insert Link &#x2318;K</code>. This capability to have more than one link in a cell is a relatively new capability for Google Sheets ([May 2020](https://theverge.com/21431536/google-sheets-hyperlink-individual-many-multiple-words-cell)).
 - Use the [`HYPERLINK`](https://support.google.com/docs/answer/3093313) function to link an entire cell under programmatic control.
 
-*There is currently no way to link specific text (or more than one link in a cell) under programmatic control.* [`Code.gs`](https://github.com/psb-david-petty/google-apps-scripts/blob/main/ZoomLink/Code.gs) is a solution to that missing capability using Apps Script.
+*There is currently no way to link specific text (or more than one link in a cell) under programmatic control.* [`Code.gs`](https://github.com/psb-david-petty/google-apps-scripts/blob/main/ZoomLink/Code.gs) is a solution to that missing capability for Zoom links using Apps Script.
 
 **To use this Apps Script, open <code>Tools > &#x2039;&#x203a; Script Editor</code> from a Google Sheet, copy / paste [`Code.gs`](https://github.com/psb-david-petty/google-apps-scripts/blob/main/ZoomLink/Code.gs) into the editor, and click <code>&#x25b7; Run</code>. (Or make a copy of a spreadsheet with this Apps Script embedded.)**
 
