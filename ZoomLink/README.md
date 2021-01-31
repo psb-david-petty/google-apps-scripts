@@ -5,7 +5,7 @@
 This is a [Google Sheets Apps Script](https://developers.google.com/apps-script/guides/sheets) to replace Zoom URIs in a Google Sheet w/ links to them. 
 
 There are currently two ways to embed URI links within a Google Sheet cell:
-- Select individual text and use <code>Insert > &#x1f517; Insert Link &#x2318;K</code>. This capability to have more than one link in a cell is a relatively new capability for Google Sheets ([May 2020](https://theverge.com/21431536/google-sheets-hyperlink-individual-many-multiple-words-cell)).
+- Select individual text and use <code>Insert > &#x1f517; Insert link&nbsp;&nbsp;&nbsp;&nbsp;&#x2318;K</code>. This capability to have more than one link in a cell is a relatively new capability for Google Sheets ([May 2020](https://theverge.com/21431536/google-sheets-hyperlink-individual-many-multiple-words-cell)).
 - Use the [`HYPERLINK`](https://support.google.com/docs/answer/3093313) function to link an entire cell under programmatic control.
 
 *There is currently no way to link specific text (or more than one link in a cell) under programmatic control.* [`Code.gs`](https://github.com/psb-david-petty/google-apps-scripts/blob/main/ZoomLink/Code.gs) is a solution to that missing capability for Zoom links using Apps Script.
@@ -25,5 +25,6 @@ There are currently two ways to embed URI links within a Google Sheet cell:
 
 - The `Code.gs` Apps Script inlcuded in the [`sample-schedule`](https://docs.google.com/spreadsheets/d/1D5N7W9oFrUXjB9569Qm6inJ0Xr631kPygQz0f742eEU/edit) example *should* execute `onOpen()` automatically. (If `Zoom Menu` does not appear after `Help`, open <code>Tools > &#x2039;&#x203a; Script Editor</code>.)
 - In `Code.gs`, `setConditionalFormattingRules` should set rules for a *range*, not the entire sheet.
+- In `Code.gs`, there ought to be another menu item added for link updating *without* `setConditionalFormattingRules`.
 
 [&#128279; permalink](https://psb-david-petty.github.io/google-apps-scripts/ZoomLink/) and [&#128297; repository](https://github.com/psb-david-petty/google-apps-scripts/tree/main/ZoomLink) for this page.
