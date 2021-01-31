@@ -12,8 +12,10 @@ There are currently two ways to embed URI links within a Google Sheet cell:
 
 **To use this Apps Script, open <code>Tools > &#x2039;&#x203a; Script Editor</code> from a Google Sheet, copy / paste [`Code.gs`](https://github.com/psb-david-petty/google-apps-scripts/blob/main/ZoomLink/Code.gs) into the editor, and click <code>&#x25b7; Run</code>. (Or make a copy of a spreadsheet with this Apps Script embedded.)**
 
-- [Example](https://docs.google.com/spreadsheets/d/1D5N7W9oFrUXjB9569Qm6inJ0Xr631kPygQz0f742eEU/edit) spreadsheet with two sheets (`display` &amp; `data`).  `data` creates the cell text for `display` &mdash; a selection of which can modified by the `zoom()` function in `Code.gs` through the added menu command `Zoom Menu > Replace Zoom Links`. To test `display`, copy the row containing *Replace Zoom Links above here* cells up to the header row, then use `Zoom Menu > Replace Zoom Links` to modify Zoom links in selected cells.
+### Documents
+
 - [Published](https://docs.google.com/spreadsheets/d/e/2PACX-1vT2gwo-SF5JzRwyRdwSviT3a607qNpafRtfGXZpAf1WzJlZPzCNGdDh-eGYao5CQglw87CmZyQfAKKb/pubhtml) spreadsheet `display` sheet w/ active Zoom links.
+- [Example](https://docs.google.com/spreadsheets/d/1D5N7W9oFrUXjB9569Qm6inJ0Xr631kPygQz0f742eEU/edit) spreadsheet with two sheets (`display` &amp; `data`).  `data` creates the cell text for `display` &mdash; a selection of which can modified by the `zoom()` function in `Code.gs` through the added menu command `Zoom Menu > Replace Zoom Links`. To test `display`, copy the row containing *Replace Zoom Links above here* cells up to the header row, then use `Zoom Menu > Replace Zoom Links` to modify Zoom links in selected cells.
 - [`Code.gs`](https://github.com/psb-david-petty/google-apps-scripts/blob/main/ZoomLink/Code.gs) modifies the selection as follows:
   - Update the rich text for each non-empty cell
   - Replace a Zoom URI with a link to it (match color, no underline)
