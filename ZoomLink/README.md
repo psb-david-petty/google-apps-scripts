@@ -1,6 +1,6 @@
 ## `ZoomLink`
 
-<p style="border-left: thick solid red; margin: 0 0 0 1%; padding 0 0 0 1%;">**This documentation is a `DRAFT` and needs more work.**</p>
+<p style="border-left: thick solid red; margin: 0 0 0 1%; padding 0 0 0 1%; font-weight: bold;">This documentation is a `DRAFT` and needs more work.</p>
 
 This is a [Google Sheets Apps Script](https://developers.google.com/apps-script/guides/sheets) to replace Zoom URIs in a Google Sheet w/ links to them. There are currently two ways to embed URI links within a Google Sheet cell:
 - Select individual text and use <code>Insert > &#x1f517; Insert Link &#x2318;K</code>. The capability to have more than one link in a cell is a relatively new capability for Google Sheets ([May 2020](https://theverge.com/21431536/google-sheets-hyperlink-individual-many-multiple-words-cell)).
