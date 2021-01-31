@@ -74,7 +74,8 @@ function zoom() {
       .getValues();
     for (let i = 0; i < rangeWidth; i++) {
       for (let j = 0; j < rangeHeight; j++) {
-        let value = rangeValues[j][i];
+        // Note: Use toString() to avoid type errors on values.
+        let value = rangeValues[j][i].toString();
         if (value) Logger.log(`col:${i} row:${j} val:"${value}"`);
 
         // Only modify non-empty cells.
@@ -86,7 +87,8 @@ function zoom() {
             .build()
           // Match Zoom URI, e.g.:
           // https://zoom.us/j/9726336948?pwd=MkZWNm1XeldQNetwcUpTOGkySWY1Zz09
-          let regExp = new RegExp('http[s:/]{3,4}zoom[.]us[0-9a-z/?=]*', 'gi');
+          // https://psbma-org.zoom.us/j/98961221343?pwd=b1ZZTnB4aHd4YlV1dVNXL2VxMjNuQT09
+          let regExp = new RegExp('http[s:/]{3,4}[.-0-9a-zA-Z_]*zoom[.]us[-/?=0-9a-zA-Z_]*', 'gi');
           let match = regExp.exec(value);
           if (match) {
             let uri = match[0];
