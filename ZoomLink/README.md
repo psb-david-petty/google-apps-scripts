@@ -1,6 +1,6 @@
 ## `ZoomLink`
 
-<p style="border-left: thick solid red; margin: 0 0 0 -1%; padding 0 0 0 2%; font-weight: bold;">This documentation is a `DRAFT` and needs more work.</p>
+<p style="border-left: thick solid red; padding 0 0 0 2%; font-weight: bold;">This documentation is a `DRAFT` and needs more work.</p>
 
 This is a [Google Sheets Apps Script](https://developers.google.com/apps-script/guides/sheets) to replace Zoom URIs in a Google Sheet w/ links to them. 
 
