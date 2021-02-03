@@ -1,6 +1,6 @@
 ## `ZoomLink`
 
-<p style="border-left: thick solid red; padding 0 0 0 2%; font-weight: bold;">This documentation is a `DRAFT` and needs more work.</p>
+<p style="border-left: thick solid red; margin 0 0 0 2%; font-weight: bold;">This documentation is a <code>DRAFT</code> and needs more work.</p>
 
 This is a [Google Sheets Apps Script](https://developers.google.com/apps-script/guides/sheets) to replace Zoom URIs in a Google Sheet w/ links to them. 
 
@@ -23,7 +23,7 @@ There are currently two ways to embed URI links within a Google Sheet cell:
 
 ### TODO
 
-- The `Code.gs` Apps Script inlcuded in the [`sample-schedule`](https://docs.google.com/spreadsheets/d/1D5N7W9oFrUXjB9569Qm6inJ0Xr631kPygQz0f742eEU/edit) example *should* execute `onOpen()` automatically. (If `Zoom Menu` does not appear after `Help`, open <code>Tools > &#x2039;&#x203a; Script Editor</code>.)
+- The `Code.gs` Apps Script included in the [`sample-schedule`](https://docs.google.com/spreadsheets/d/1D5N7W9oFrUXjB9569Qm6inJ0Xr631kPygQz0f742eEU/edit) example *should* execute `onOpen()` automatically. (If `Zoom Menu` does not appear after `Help`, open <code>Tools > &#x2039;&#x203a; Script Editor</code>.)
 - In `Code.gs`, `setConditionalFormattingRules` should set rules for a *range*, not the entire sheet.
 - In `Code.gs`, there ought to be another menu item added for link updating *without* `setConditionalFormattingRules`.
 
